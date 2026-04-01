@@ -1,0 +1,24 @@
+# Windows system files
+desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Google Drive sync cache
+*.tmp
+*.gdoc
+*.gsheet
+*.gslides
+
+# VS Code (very important if you use it)
+.vscode/
+
+# Python (if your project is AIML / Python)
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS hidden files
+.DS_Store
