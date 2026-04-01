@@ -66,7 +66,7 @@ def plot_clusters(df_scaled: pd.DataFrame, labels: np.ndarray, n_components: int
 
 if __name__ == '__main__':
     # load dataset
-    csv_path = r"c:\Users\LENOVO\Desktop\Sem2\Advanced Machine Learning Techniques\6\Data\marketing_campaign.csv"
+    csv_path = r"c:\Users\LENOVO\Desktop\Sem2\Advanced Machine Learning Techniques\5. Gaussian Mixture Models\Data\marketing_campaign.csv"
     print('loading and preprocessing data...')
     data_scaled = load_and_preprocess(csv_path)
     print(f'data shape after preprocessing: {data_scaled.shape}')
